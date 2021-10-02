@@ -41,20 +41,17 @@ endline_follow=1
 
 csrftoken=$(curl https://www.instagram.com/accounts/login/ajax -L -i -s | grep "csrftoken" | cut -d "=" -f2 | cut -d ";" -f1)
 
-
-
-
-
-
-
-
 banner() {
-                   
-printf "\e[1;92m     ___  ______ _____   ___  ____  ___  ___   ___  __  __
-printf "\e[1;92m    / _ )/  _/ // / _ | / _ \/  _/ / _ )/ _ | / _ )/ / / /
-printf "\e[1;92m   / _  |/ // _  / __ |/ , _// /  / _  / __ |/ _  / /_/ / 
-printf "\e[1;92m  /____/___/_//_/_/ |_/_/|_/___/ /____/_/ |_/____/\____/  
-                                                          
+            
+     d8888b. d888888b db   db  .d8b.  d8888b. d888888b      d8888b.  .d8b.  d8888b. db    db 
+     88  `8D   `88'   88   88 d8' `8b 88  `8D   `88'        88  `8D d8' `8b 88  `8D 88    88 
+     88oooY'    88    88ooo88 88ooo88 88oobY'    88         88oooY' 88ooo88 88oooY' 88    88 
+     88~~~b.    88    88~~~88 88~~~88 88`8b      88         88~~~b. 88~~~88 88~~~b. 88    88 
+     88   8D   .88.   88   88 88   88 88 `88.   .88.        88   8D 88   88 88   8D 88b  d88 
+     Y8888P' Y888888P YP   YP YP   YP 88   YD Y888888P      Y8888P' YP   YP Y8888P' ~Y8888P' 
+                                                                                             
+                                                                                             
+
 printf "\n"                                                                                                           
 printf "\e[1;77m\e[45m        Instagram bot by @biharibhaijiii      \e[0m\n"
 printf "\n"                                    
