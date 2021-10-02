@@ -41,6 +41,13 @@ endline_follow=1
 
 csrftoken=$(curl https://www.instagram.com/accounts/login/ajax -L -i -s | grep "csrftoken" | cut -d "=" -f2 | cut -d ";" -f1)
 
+
+
+
+
+
+
+
 banner() {
                    
 printf "\e[1;92m     ___  ______ _____   ___  ____  ___  ___   ___  __  __
