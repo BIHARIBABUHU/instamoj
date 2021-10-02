@@ -42,15 +42,13 @@ endline_follow=1
 csrftoken=$(curl https://www.instagram.com/accounts/login/ajax -L -i -s | grep "csrftoken" | cut -d "=" -f2 | cut -d ";" -f1)
 
 banner() {
-
-
 printf "\e[1;92m ____ _____ _    _          _____  _____   ____          ____  _    _ 
 printf "\e[1;92m |  _ \_   _| |  | |   /\   |  __ \|_   _| |  _ \   /\   |  _ \| |  | |
 printf "\e[1;92m | |_) || | | |__| |  /  \  | |__) | | |   | |_) | /  \  | |_) | |  | |
 printf "\e[1;92m |  _ < | | |  __  | / /\ \ |  _  /  | |   |  _ < / /\ \ |  _ <| |  | |
 printf "\e[1;92m | |_) || |_| |  | |/ ____ \| | \ \ _| |_  | |_) / ____ \| |_) | |__| |
-printf "\e[1;92m |____/_____|_|  |_/_/    \_\_|  \_\_____| |____/_/    \_\____/ \____/ 
-                                                                                                                                      
+printf "\e[1;92m |____/_____|_|  |_/_/    \_\_|  \_\_____| |____/_/    \_\____/ \____/   
+printf "\n"                                                                                                                                  
 printf "\e[1;77m\e[45m        Instagram bot by @biharibhaijiii      \e[0m\n"
 printf "\n"                                    
 
