@@ -43,12 +43,12 @@ csrftoken=$(curl https://www.instagram.com/accounts/login/ajax -L -i -s | grep "
 
 banner() {
             
-     d8888b. d888888b db   db  .d8b.  d8888b. d888888b      d8888b.  .d8b.  d8888b. db    db 
-     88  `8D   `88'   88   88 d8' `8b 88  `8D   `88'        88  `8D d8' `8b 88  `8D 88    88 
-     88oooY'    88    88ooo88 88ooo88 88oobY'    88         88oooY' 88ooo88 88oooY' 88    88 
-     88~~~b.    88    88~~~88 88~~~88 88`8b      88         88~~~b. 88~~~88 88~~~b. 88    88 
-     88   8D   .88.   88   88 88   88 88 `88.   .88.        88   8D 88   88 88   8D 88b  d88 
-     Y8888P' Y888888P YP   YP YP   YP 88   YD Y888888P      Y8888P' YP   YP Y8888P' ~Y8888P' 
+printf "\e[1;92m    d8888b. d888888b db   db  .d8b.  d8888b. d888888b      d8888b.  .d8b.  d8888b. db    db 
+printf "\e[1;92m    88  `8D   `88'   88   88 d8' `8b 88  `8D   `88'        88  `8D d8' `8b 88  `8D 88    88 
+printf "\e[1;92m    88oooY'    88    88ooo88 88ooo88 88oobY'    88         88oooY' 88ooo88 88oooY' 88    88 
+printf "\e[1;92m    88~~~b.    88    88~~~88 88~~~88 88`8b      88         88~~~b. 88~~~88 88~~~b. 88    88 
+                    88   8D   .88.   88   88 88   88 88 `88.   .88.        88   8D 88   88 88   8D 88b  d88 
+                    Y8888P' Y888888P YP   YP YP   YP 88   YD Y888888P      Y8888P' YP   YP Y8888P' ~Y8888P' 
                                                                                              
                                                                                              
 
