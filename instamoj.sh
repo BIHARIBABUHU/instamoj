@@ -1,8 +1,8 @@
 #!/bin/bash
-# ChoiceBot v1.1
-# Coded by: @thelinuxchoice (Don't change!)
-# Github: www.github.com/thelinuxchoice/choicebot
-# Instagram: @thelinuxchoice
+# instamoj v1.0
+# Coded by: @biharibhaijiii 
+# Github: https://github.com/BIHARIBABUHU/instamoj
+# Instagram: @biharibhaijiii
 
 trap 'printf "\n";stop;exit 1' 2
 
@@ -16,12 +16,12 @@ default_password=""
 
 ## Comments
 
-arr[0]="Your profile is amazing!"
-arr[1]="Its look good"
+arr[0]="You are amazing ❤️🔥!"
+arr[1]="Its look osm💕"
 arr[2]="Your feed is great!"
-arr[3]="Yours pictures are so good!"
+arr[3]="Yours pictures are so good❤️!"
 arr[4]=":)"
-arr[5]="i liked that"
+arr[5]="you are cute ❤️i liked that"
 arr[6]="yes!"
 
 ############################################################
@@ -43,13 +43,15 @@ csrftoken=$(curl https://www.instagram.com/accounts/login/ajax -L -i -s | grep "
 
 banner() {
 
-printf "\e[1;92m   ____ _           _          ____        _    \e[0m\n"
-printf "\e[1;92m  / ___| |__   ___ (_) ___ ___| __ )  ___ | |_  \e[0m\n"
-printf "\e[1;92m | |   | '_ \ / _ \| |/ __/ _ \  _ \ / _ \| __| \e[0m\n"
-printf "\e[1;92m | |___| | | | (_) | | (_|  __/ |_) | (_) | |_  \e[0m\n"
-printf "\e[1;92m  \____|_| |_|\___/|_|\___\___|____/ \___/ \__| \e[0mv1.1\n"
-printf "\n"
-printf "\e[1;77m\e[45m        Instagram bot by @thelinuxchoice       \e[0m\n"
+
+printf "\e[1;92m ____ _____ _    _          _____  _____   ____          ____  _    _ 
+printf "\e[1;92m |  _ \_   _| |  | |   /\   |  __ \|_   _| |  _ \   /\   |  _ \| |  | |
+printf "\e[1;92m | |_) || | | |__| |  /  \  | |__) | | |   | |_) | /  \  | |_) | |  | |
+printf "\e[1;92m |  _ < | | |  __  | / /\ \ |  _  /  | |   |  _ < / /\ \ |  _ <| |  | |
+printf "\e[1;92m | |_) || |_| |  | |/ ____ \| | \ \ _| |_  | |_) / ____ \| |_) | |__| |
+printf "\e[1;92m |____/_____|_|  |_/_/    \_\_|  \_\_____| |____/_/    \_\____/ \____/ 
+                                                                                                                                      
+printf "\e[1;77m\e[45m        Instagram bot by @biharibhaijiii      \e[0m\n"
 printf "\n"                                    
 
 }
